@@ -1,0 +1,83 @@
+
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Clients CSS Start */
+
+body
+{
+   width: 100%;
+}
+
+.slider
+{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider .slide-track
+{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(200px*8);
+}
+
+@keyframes scroll
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(calc(-200px*4));
+    }
+}
+
+.slider .slide-track .slide
+{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.slider .slide-track .slide img
+{
+    width: 100px;
+    height: 50px;
+}
+
+
+
+
+/* Clients CSS end */
+
+
+
+
+
+
+
+
+
+
+
+

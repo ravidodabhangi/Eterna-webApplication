@@ -1,0 +1,194 @@
+
+*,p
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.597);
+}
+
+body
+{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+.mainS
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainS .slider
+{
+    display: flex;
+    width: 100%;
+    height: 600px;
+     overflow: hidden;
+}
+
+.mainS .slider .slides
+{
+    position: relative;
+    display: flex;
+    width: 400%;
+}
+
+.mainS .slider .slides input
+{
+    display: none;
+}
+
+.mainS .slider .slides .slide
+{
+    position: relative;
+   width: 25%;
+   transition: 2s;
+}
+
+.mainS .slider .slides .slide img
+{
+    width: 1529px;
+    height: 500px;
+}
+
+.navigation-manual
+{
+    position: absolute;
+    bottom: 20px;
+    left: 730px;
+}
+
+.navigation-manual .manual-btn
+{
+    border: 1px solid red;
+    padding: 0px 8px;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.navigation-manual .manual-btn:not(:last-child)
+{
+    margin-right: 10px;
+}
+
+#radio1:checked ~ .first
+{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first
+{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first
+{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first
+{
+    margin-left: -75%;
+}
+
+
+
+
+
+
+
+/* 
+.mainS
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainS .slider{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+.slider .slides
+{
+    position: relative;
+    width: 300%;
+    display: flex;
+}
+
+.slider .slides input
+{
+    display: none;
+}
+
+.slider .slides .slide
+{
+    position: relative;
+    width: 33.33%;
+    transition: 2s;
+}
+
+.slider .slides .slide img
+{
+    width: 1536px;
+    height: 800px;
+}
+
+.navigation-manual{
+    position: absolute;
+    bottom: 20px;
+    left:720px;
+}
+
+.navigation-manual .manual-btn
+{
+    border: 2px solid blue;
+    padding: 0px 0.5pc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-manual .manual-btn:not(:last-child)
+{
+    margin-right: 10px;
+}
+
+#radio1:checked ~ .first
+{
+    margin-left: 0px;
+}
+#radio2:checked ~ .first
+{
+    margin-left: -33.34%;
+}
+#radio3:checked ~ .first
+{
+    margin-left: -66.67%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
